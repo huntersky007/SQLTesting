@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button android:id="@+id/menuButtonShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MenuShow"
+        android:onClick="showActivity"/>
+    <Button android:id="@+id/menuButtonInsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="@string/MenuInsert"
+        android:onClick="insertActivity"/>
+    <Button android:id="@+id/menuButtonDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="@string/MenuDelete"
+        />
+    
+    
+</LinearLayout>
